@@ -6,13 +6,14 @@
 
 body {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-  background: #000;
-  color: #fff;
+  background: transparent;
+  color: #000;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +29,7 @@ nav .mainmenu li a {
   display: inline-block;
   padding: 15px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   font-size: 1.5rem;
 }
 
@@ -114,7 +115,7 @@ nav .logo {
 
 section {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-color: #000;
   color: #fff;
   display: flex;
@@ -133,6 +134,7 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   overflow: hidden;
+  transition: all 0.2s ease;
 }
 
 section .items {
@@ -188,5 +190,54 @@ section .edit-icon:hover {
 
 button:hover {
   font-weight: 600;
-  color: black;
+  /* color: black; */
+  background-color: rgb(237, 134, 39);
+}
+
+/* menu-items styling */
+
+.menu-items {
+  height: 100%;
+  width: 100%;
+}
+
+.menu-items h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: rgb(255, 115, 0);
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  /* border: 2px solid grey; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+.card .img-section {
+  width: 100%;
+  height: 65%;
+  /* border: 1px solid #000; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card button {
+  padding: 10px;
+  font-weight: bold;
 }

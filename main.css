@@ -1,13 +1,72 @@
-body {
-  background-image: url("	https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/xxxmin.jpg");
-  display: inline-flex;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #000;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#heading {
-  color: white;
-  text-align: center;
-  justify-items: center;
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* https://images.pexels.com/photos/208537/pexels-photo-208537.jpeg */
+
+/* Navbar styling */
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+nav .mainmenu {
+  display: flex;
+  list-style: none;
+}
+
+nav .mainmenu li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+nav .mainmenu li a:hover {
+  background: rgb(255, 94, 0);
+}
+
+nav .openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+nav .mainmenu .closeMenu,
+.icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+.fa-facebook:hover {
+  color: rgb(0, 110, 255);
+}
+.fa-twitter:hover {
+  color: rgb(93, 149, 221);
+}
+.fa-instagram:hover {
+  color: rgb(149, 51, 139);
+}
+.fa-github:hover {
+  color: rgb(255, 94, 0);
+}
+
+nav .logo {
+  margin: 6px;
+  font-size: 25px;
+  cursor: pointer;
 }

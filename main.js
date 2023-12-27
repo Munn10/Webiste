@@ -1,4 +1,4 @@
-var data = [
+let data = [
   {
     id: 1,
     title: "Cheese Pizza",
@@ -69,6 +69,8 @@ var data = [
   },
 ];
 
+let container = document.querySelector(".container");
+console.log(container);
 const loadAll = () => {
   const pizzaItemsHTML = data.map(
     (item) => `
