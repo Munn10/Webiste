@@ -1,0 +1,13 @@
+body {
+  background-image: url("	https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/xxxmin.jpg");
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
+#heading {
+  color: white;
+  text-align: center;
+  justify-items: center;
+}

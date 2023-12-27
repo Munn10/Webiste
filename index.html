@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css"
+      integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <div class="logo"><h1>Burger Mania!</h1></div>
+        <div class="openMenu"><i class="fa-solid fa-bars"></i></div>
+        <ul class="mainmenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="./manage.html">Manage</a></li>
+          <li><a href="./Login.html">Logout</a></li>
+          <div class="closeMenu"><i class="fa-solid fa-xmark"></i></div>
+          <span class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-github"></i>
+          </span>
+        </ul>
+      </nav>
+    </div>
+    <div class="menu-items">
+      <div class="container">
+        <div class="row">
+          <h1
+            style="
+              color: white;
+              margin-left: 45%;
+              margin-top: 100px;
+              margin-bottom: 100px;
+              background-color: black;
+            "
+          >
+            Italy Pizza Menu
+          </h1>
+        </div>
+        <div class="row" id="box"></div>
+      </div>
+    </div>
+  </body>
+</html>
